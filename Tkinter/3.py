@@ -40,7 +40,7 @@ def select_listbox(event):
     print(my_listbox.get(my_listbox.curselection()))
 
 my_listbox = Listbox()
-name_list = ["atil", "firat", "jkdsnk", "dkl"]
+name_list = ["hank", "walter", "jesse", "jane"]
 for i in range(len(name_list)):
     my_listbox.insert(i, name_list[i])
 
